@@ -1,3 +1,3 @@
-function openBurger(){
-    document.querySelector('.header-one').classList.toggle('show');
+function openBurger(_class){
+    document.querySelector(_class).classList.toggle('show');
 }
