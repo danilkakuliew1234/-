@@ -1,0 +1,69 @@
+@media (max-width: 414px){ /*Phones*/
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+    .container__wrapper{
+        max-width: 100%;
+        height: 100vh;
+    }
+    .facultet-info{
+        margin-bottom: 20px;
+    }
+    .facultet-name{
+        height: 100%;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    a{
+        display: none;
+    }
+    .schedule__table{
+        height: 228%;
+        border: 0.5px solid rgba(102, 102, 102, 0.4);
+    }
+    .schedule__table tr{
+        display: block;
+        margin-bottom: 1rem;
+    }
+    .schedule__table td{
+        display: block;
+        text-align: left;
+    }
+    .schedule__table td::before{
+        content: attr(aria-label);
+        float: left;
+        font-weight: bold;
+    }
+}
+@media (max-width: 411px){
+    .schedule__table{
+        height: 230%;
+    }
+    .schedule__table:last-child{
+        margin-bottom: 1%;
+    }
+    .facultet-name{
+        height: 80%;
+    }
+}
+@media (max-width: 375px){
+    .schedule__table{
+        height: 254%;
+    }
+    .schedule__table:last-child{
+        margin-bottom: 1%;
+    }
+    .facultet-name{
+        height: 95%;
+    }
+}
+@media (max-width: 1025px){ /*Ipad*/
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+    .container__wrapper{
+        max-width: 100%;
+    }
+}

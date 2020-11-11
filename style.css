@@ -1,0 +1,355 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+}
+.container__wrapper{
+    margin: 0 auto;
+    max-width: 70%;
+    height: 100vh;
+}
+
+/*Header one*/
+.header-one{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background: #bababa;
+    margin-bottom: 10px;
+    border-radius:7px;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    border: 0px solid #000000;
+    background: rgb(93,84,255);
+    background: linear-gradient(90deg, rgba(93,84,255,1) 0%, rgba(210,130,145,1) 0%, rgba(180,180,180,1) 0%, rgba(255,202,135,1) 0%, rgba(154,124,124,1) 100%);
+    -webkit-box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+}
+.right-side-header-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+.right-side-header-one p{
+    margin-right: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.right-side-header-one a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+.right-side-header-one a:hover{
+    color: #ffffff;
+    transition: .3s;
+}
+.right-side-header-one a:not(:hover){
+    color: #000000;
+    transition: .3s;
+}
+.right-side-header-one a:last-child{
+    margin-right: 0px;
+}
+.left-side-header-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+.left-side-header-one a{
+    margin-right: 15px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+.left-side-header-one a:hover{
+    color: #ffffff;
+    transition: .3s;
+}
+.left-side-header-one a:not(:hover){
+    color: #000000;
+    transition: .3s;
+}
+.left-side-header-one a:last-child{
+    margin-right: 0px;
+}
+
+/*Header two*/
+
+
+.header-two{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    background: #bababa;
+    align-items: center;
+    margin-bottom: 10px;
+    background: rgb(93,84,255);
+    background: linear-gradient(90deg, rgba(93,84,255,1) 0%, rgba(210,130,145,1) 0%, rgba(180,180,180,1) 0%, rgba(255,202,135,1) 0%, rgba(154,124,124,1) 100%);
+    border-radius:7px;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    -webkit-box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+.header-two p{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.header-two a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: #000000;
+}
+.header-two a:last-child{
+    margin-right: 0px;
+}
+.header-two a:hover{
+    transition: .3s;
+    color: #ffffff;
+}
+.header-two a:not(:hover){
+    transition: .3s;
+    color: #000000;
+}
+
+/*Header three*/
+
+
+.header-three{
+    border-radius:7px;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    width: 100%;
+    display: flex;
+    height: 60px;
+    font-family: 'Montserrat', sans-serif;
+    background: #bababa;
+    align-items: center;
+    margin-bottom: 15px;
+    background: rgb(93,84,255);
+    background: linear-gradient(90deg, rgba(93,84,255,1) 0%, rgba(210,130,145,1) 0%, rgba(180,180,180,1) 0%, rgba(255,202,135,1) 0%, rgba(154,124,124,1) 100%);
+    -webkit-box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+.header-three p{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.header-three a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: #000000;
+}
+.header-three a:hover{
+    transition: .3s;
+    color: #ffffff;
+}
+.header-three a:not(:hover){
+    transition: .3s;
+    color: #000000;
+}
+
+.facultet-name{
+    height: 32%;
+    width: 100%;
+    background: rgb(93,84,255);
+    background: linear-gradient(90deg, rgba(93,84,255,1) 0%, rgba(163,163,163,1) 0%, rgba(180,180,180,1) 0%, rgba(255,218,137,1) 0%, rgba(176,146,146,1) 100%);
+    padding: 10px;
+    border-radius:7px;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    -webkit-box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+.block_one{
+    width: 100px;
+    height: 30px;
+    background: #FF6200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+}
+.info__all{
+    display: flex;
+}
+.week{
+    width: 100px;
+    height: 30px;
+    background: #FF6200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.week::before{
+    content: "ЧЕТНАЯ";
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+.block_one::before{
+    content: "УЗЭС";
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.facultet-info{
+    height: 15%;
+}
+
+.facultet-info h1{
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+/*Расписание*/
+
+.schedule__table{
+    width: 100%;
+    height: 25%;
+}
+.table{
+    width: 100%;
+    height: 80%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border-collapse: collapse;
+}
+.table td{
+    border: 0.5px solid rgba(102, 102, 102, 0.4);
+    padding: 5px;
+    border-width: .7px;
+    margin: 0;
+}
+tr{
+    margin: 0;
+}
+
+.date{
+    width: 200px;
+    border: 1px solid rgba(102, 102, 102, 1);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.table_date{
+    border-collapse: collapse;
+    border-width: .7px;
+    border-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.info_1{
+    margin-bottom: 20px;
+}
+.info_1:last-child{
+    margin-bottom: 0px;
+}
+
+.tests{
+    height: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tests h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+/*JS*/
+
+.select_services{
+    transition: all 300ms;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 7%;
+    left: 39%;
+    display: none;
+    background: #ffffff;
+    width: 600px;
+    padding: 10px;
+    background: rgb(93,84,255);
+    background: linear-gradient(90deg, rgba(93,84,255,1) 0%, rgba(210,130,145,1) 0%, rgba(180,180,180,1) 0%, rgba(255,202,135,1) 0%, rgba(154,124,124,1) 100%);
+    -webkit-box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+    border-radius:7px;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    -webkit-box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+.select_services.show{
+    height: 180px;
+    transition: all 300ms;
+    display: flex;
+}
+
+.select_services a{
+    margin-bottom: 10px;
+}
+
+.select_facultet{
+    transition: all 300ms;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 7%;
+    left: 30%;
+    background: #ffffff;
+    width: 600px;
+    padding: 10px;
+    display: none;
+    background: rgb(93,84,255);
+    background: linear-gradient(90deg, rgba(93,84,255,1) 0%, rgba(210,130,145,1) 0%, rgba(180,180,180,1) 0%, rgba(255,202,135,1) 0%, rgba(154,124,124,1) 100%);
+    -webkit-box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -webkit-box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+}
+.select_facultet.show{
+    height: 395px;
+    transition: all 300ms;
+    display: flex;
+}
+.select_facultet a{
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #000000;
+}
+.select_facultet a:hover{
+    color: #ffffff;
+}

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adaptive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,100;1,200;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="container__wrapper">
+            <header class="header-one">
+                <div class="right-side-header-one">
+                    <p>Расписание:</p>
+                    <a href="#">Редактирование</a>
+                    <a onclick="openFacultet()" href="#">Выбор факультета</a>
+                    <div class="select_facultet">
+                        <a class="link_to_facultet" href="#">Аграрных технологий</a>
+                        <a class="link_to_facultet" href="#">Инженерный</a>
+                        <a class="link_to_facultet" href="#">Информационные системы в экономике и юриспруденции</a>
+                        <a class="link_to_facultet" href="#">Лечебный факультет</a>
+                        <a class="link_to_facultet" href="#">Мужденародного образования</a>
+                        <a class="link_to_facultet" href="#">Среднего профессионального образования</a>
+                        <a class="link_to_facultet" href="#">Стоматология</a>
+                        <a class="link_to_facultet" href="#">Технологический</a>
+                        <a class="link_to_facultet" href="#">Факультет управления</a>
+                        <a class="link_to_facultet" href="#">Фармацевтический факультет</a>
+                        <a class="link_to_facultet" href="#">Филиал Яблоновский</a>
+                        <a class="link_to_facultet" href="#">Экологический</a>
+                        <a class="link_to_facultet" href="#">Экономики и сервиса</a>
+                    </div>
+                    <a onclick="openServices()" href="#">Сервисы</a>
+                    <div class="select_services">
+                        <a href="" class="link_to_services">Печать</a>
+                        <a href="" class="link_to_services">Листы проверки</a>
+                        <a href="" class="link_to_services">Аудиторная нагрузка</a>
+                        <a href="" class="link_to_services">Расписание аудитории</a>
+                        <a href="" class="link_to_services">Расписание преподавателя</a>
+                        <a href="" class="link_to_services">Расписание лечебного факультета (xslx)</a>
+                    </div>
+                </div>
+                <div class="left-side-header-one">
+                    <a href="#">Мобильная версия</a>
+                    <a href="#">Старая версия</a>
+                    <a href="#">1 семестр</a>
+                    <a href="#">2 семестр</a>
+                </div>
+            </header>
+            <header class="header-two">
+                <p>Очная форма обучения:</p>
+                <a href="#">1 курс</a>
+                <a href="#">2 курс</a>
+                <a href="#">3 курс</a>
+                <a href="#">4 курс</a>
+            </header>
+            <header class="header-three">
+                <p>Заочная форма обучения:</p>
+                <a href="#">1 курс</a>
+                <a href="#">2 курс</a>
+                <a href="#">3 курс</a>
+                <a href="#">4 курс</a>
+                <a href="#">5 курс</a>
+            </header>
+            <div class="facultet-name" id="name">
+                <div class="info__all">
+                    <div class="block_one"></div>
+                    <div class="week"></div>
+                </div>
+                <div class="facultet-info">
+                    <h1>Аграрных технологий АГ-11 ОВО</h1>
+                </div>
+                <div class="schedule-facultet">
+                    <div class="info_1">
+                        <table class="table_date">
+                            <tr>
+                                <td>практика с </td>
+                                <td class="date" id="date"></td>
+                                <td>по</td>
+                                <td class="date" id="date"></td>
+                            </tr>
+                            <tr>
+                                <td>практика с </td>
+                                <td class="date" id="date"></td>
+                                <td>по</td>
+                                <td class="date" id="date"></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="info_1">
+                        <table class="table_date">
+                            <tr>
+                                <td>Первая промежуточная аттестация с </td>
+                                <td class="date" id="date"></td>
+                                <td>по</td>
+                                <td class="date" id="date"></td>
+                            </tr>
+                            <tr>
+                                <td>Вторая повторная (проводимая комиссией) промежуточная аттестация с </td>
+                                <td class="date" id="date"></td>
+                                <td>по</td>
+                                <td class="date" id="date"></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="info_1">
+                        <table class="table_date">
+                            <tr>
+                                <td>Зачетная неделя с </td>
+                                <td class="date" id="date"></td>
+                                <td>по</td>
+                                <td class="date" id="date"></td>
+                            </tr>
+                            <tr>
+                                <td>Экзаменационная сессия с </td>
+                                <td class="date" id="date"></td>
+                                <td>по</td>
+                                <td class="date" id="date"></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="info_1">
+                        <table class="table_date">
+                            <tr>
+                                <td>Начало занятий с </td>
+                                <td class="date" id="date"></td>
+                                <td>по</td>
+                                <td class="date" id="date"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="tests">
+                <h1>Зачеты</h1>
+            </div>
+            <div class="schedule__table">
+                <table class="table">
+                    <tr>
+                        <td><span>№п/п</span></td>
+                        <td><span>дисциплина</span></td>
+                        <td><span>ф.и.о. преподавателя</span></td>
+                        <td><span>дата</span></td>
+                        <td><span>аудитория</span></td>
+                        <td><span>время</span></td>
+                    </tr>
+                    <tr>
+                        <td>0</td>
+                        <td><span >деловой иностранный язык по профилю подготовки</span></td>
+                        <td><span >чеучева тамара меджидовна</span></td>
+                        <td>03.06.2019</td>
+                        <td><span>2-50</span></td>
+                        <td><span>09.40</span></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><span>мировые кулинарные шедевры</span></td>
+                        <td><span>ашинова анжелика александровна</span></td>
+                        <td><span>03.06.2019</span></td>
+                        <td>0</td>
+                        <td>15.00</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><span>индустриальные технологии производства пищевых продуктов</span></td>
+                        <td><span>хатко зурет нурбиевна</span></td>
+                        <td><span>04.06.2019</span></td>
+                        <td>2-42</td>
+                        <td>11.30</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><span>философские проблемы науки и техники</span></td>
+                        <td><span>триль юлия николаевна</span></td>
+                        <td><span>04.06.2019</span></td>
+                        <td>2-50</td>
+                        <td>13.10</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><span>основы исследований в сфере научно-технической сфере</span></td>
+                        <td><span>блягоз асет ибрагимовна</span></td>
+                        <td><span>05.06.2019</span></td>
+                        <td>2-50</td>
+                        <td>11.30</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td><span>история и методология науки о пище</span></td>
+                        <td><span>некрасова светлана олеговна</span></td>
+                        <td><span>06.06.2019</span></td>
+                        <td>2-50</td>
+                        <td>9.40</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td><span>инновационные виды обслуживания на предприятиях общественного питания</span></td>
+                        <td><span>тхайшаова аминет борисовна</span></td>
+                        <td><span>07.06.2019</span></td>
+                        <td>2-53</td>
+                        <td>13.10</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tests">
+                <h1>Экзамены</h1>
+            </div>
+            <div class="schedule__table">
+                <table class="responsive table">
+                    <tr>
+                        <td><span>№п/п</span></td>
+                        <td><span>дисциплина</span></td>
+                        <td><span>ф.и.о. преподавателя</span></td>
+                        <td><span>дата</span></td>
+                        <td><span>аудитория</span></td>
+                        <td><span>время</span></td>
+                    </tr>
+                    <tr>
+                        <td>0</td>
+                        <td><span >деловой иностранный язык по профилю подготовки</span></td>
+                        <td><span >чеучева тамара меджидовна</span></td>
+                        <td>03.06.2019</td>
+                        <td><span>2-50</span></td>
+                        <td><span>09.40</span></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><span>мировые кулинарные шедевры</span></td>
+                        <td><span>ашинова анжелика александровна</span></td>
+                        <td><span>03.06.2019</span></td>
+                        <td>0</td>
+                        <td>15.00</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><span>индустриальные технологии производства пищевых продуктов</span></td>
+                        <td><span>хатко зурет нурбиевна</span></td>
+                        <td><span>04.06.2019</span></td>
+                        <td>2-42</td>
+                        <td>11.30</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><span>философские проблемы науки и техники</span></td>
+                        <td><span>триль юлия николаевна</span></td>
+                        <td><span>04.06.2019</span></td>
+                        <td>2-50</td>
+                        <td>13.10</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><span>основы исследований в сфере научно-технической сфере</span></td>
+                        <td><span>блягоз асет ибрагимовна</span></td>
+                        <td><span>05.06.2019</span></td>
+                        <td>2-50</td>
+                        <td>11.30</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td><span>история и методология науки о пище</span></td>
+                        <td><span>некрасова светлана олеговна</span></td>
+                        <td><span>06.06.2019</span></td>
+                        <td>2-50</td>
+                        <td>9.40</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td><span>инновационные виды обслуживания на предприятиях общественного питания</span></td>
+                        <td><span>тхайшаова аминет борисовна</span></td>
+                        <td><span>07.06.2019</span></td>
+                        <td>2-53</td>
+                        <td>13.10</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/select_info.js"></script>
+    <script src="scripts/openburger.js"></script>
+</body>
+</html>
