@@ -1,4 +1,4 @@
-@media (max-width: 414px){ /*Phones*/
+@media (min-width: 411px) and (max-width: 414px){ /*Phones*/
     .container{
         width: 100%;
         height: 100%;
@@ -32,7 +32,7 @@
         margin-bottom: 20px;
     }
     .facultet-name{
-        height: 100%;
+        height: 85%;
         margin-bottom: 10px;
         font-size: 15px;
     }
@@ -158,7 +158,7 @@
         display: flex;
     }
 }
-@media (max-width: 411px){
+@media (min-width: 375px) and (max-width: 411px){
     .header-two.show{
         height: 400px;
         transition: 0.5s;
@@ -183,7 +183,7 @@
         height: 80%;
     }
 }
-@media (max-width: 375px){
+@media screen and (max-width: 375px){
     .header-two.show{
         height: 400px;
         transition: 0.5s;
@@ -199,7 +199,7 @@
         transition: 0.5s;
     }
     .schedule__table{
-        height: 254%;
+        height: 226%;
     }
     .schedule__table:last-child{
         margin-bottom: 1%;
@@ -208,12 +208,23 @@
         height: 95%;
     }
 }
-@media (min-width: 414px) and (max-width: 1025px){ /*Ipad*/
+@media screen and (max-width: 1025px){ /*Ipad*/
     .container{
         width: 100%;
         height: 100%;
     }
     .container__wrapper{
         max-width: 100%;
+    }
+    .schedule__table{
+        height: 238%;
+    }
+}
+@media (max-width: 320px){
+    .schedule__table{
+        height: 339%;
+    }
+    .facultet-name{
+        height: 110%;
     }
 }
