@@ -12,7 +12,7 @@
         <div class="container__wrapper">
             <header class="header-one">
                 <div class="right-side-header-one">
-                    <p>Расписание:</p>
+                    <p class="references">Расписание:</p>
                     <a href="#">Редактирование</a>
                     <a onclick="openFacultet()" href="#">Выбор факультета</a>
                     <div class="select_facultet">
@@ -46,13 +46,16 @@
                     <a href="#">1 семестр</a>
                     <a href="#">2 семестр</a>
                 </div>
+                <div class="burger">
+                    <a class="burger-btn" onclick="openBurger('.header-one', '.left-side-header-one')" href="#" class="burger-btn">≡</a>
+                </div>
             </header>
             <header class="header-two">
                 <div class="internal-form">
                     <p>Очная форма обучения:</p>
                     <div class="burger">
                         <a class="burger-btn" onclick="openBurger('.header-two')" href="#" class="burger-btn">≡</a>
-                </div>
+                    </div>
                 </div>
                 <a class="link-header-two" href="#">1 курс</a>
                 <a class="link-header-two" href="#">2 курс</a>

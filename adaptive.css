@@ -7,11 +7,19 @@
         max-width: 100%;
         height: 100vh;
     }
-    
-    .left-side-header-one a{
+    .left-side-header-one{
         display: none;
+        flex-direction: column;
+        left: 6%;
+        top: 6%;
+        position: absolute;
+        align-items: baseline;
     }
-    .right-side-header-one a {
+    .left-side-header-one a{
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .right-side-header-one a{
         display: none;
     }
     .link-header-three{
@@ -40,10 +48,56 @@
         display: block;
         text-align: left;
     }
-    .schedule__table td::before{
-        content: attr(aria-label);
-        float: left;
+    .schedule__table table td::before{
+        content: attr(data-label);
         font-weight: bold;
+    }
+    .schedule__table table td:nth-of-type(1):before { 
+        content: "№п/п: "; 
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        color: #000000;
+    }
+	.schedule__table table td:nth-of-type(2):before { 
+        content: "дисциплина: "; 
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        color: #000000;
+    }
+	.schedule__table table td:nth-of-type(3):before {
+         content: "ф.и.о. преподавателя: "; 
+         font-family: 'Montserrat', sans-serif;
+         font-weight: 300;
+         color: #000000;
+    }
+	.schedule__table table td:nth-of-type(4):before {
+         content: "дата: "; 
+         font-family: 'Montserrat', sans-serif;
+         font-weight: 300;
+         color: #000000;
+    }
+	.schedule__table table td:nth-of-type(5):before {
+         content: "аудитория: "; 
+         font-family: 'Montserrat', sans-serif;
+         font-weight: 300;
+         color: #000000;
+    }
+	.schedule__table table td:nth-of-type(6):before {
+         content: "время: "; 
+         font-family: 'Montserrat', sans-serif;
+         font-weight: 300;
+         color: #000000;
+    }
+    .schedule__table table tr{
+        margin-bottom: 50px;
+        background: rgb(93,84,255);
+        background: linear-gradient(90deg, rgba(93,84,255,1) 0%, rgba(210,130,145,1) 0%, rgba(180,180,180,1) 0%, rgba(255,202,135,1) 0%, rgba(154,124,124,1) 100%);
+        -webkit-box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+        -moz-box-shadow:    1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+        box-shadow:         1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+    }
+    .schedule__table table tr:first-child{
+        display: none;
     }
     .internal-form{
         display: flex;
@@ -83,6 +137,25 @@
     }
     .burger-btn{
         font-family: 'sans-serif';
+        text-decoration: none;
+        color: #000000;
+    }
+    .header-one{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        height: 50px;
+        transition: 0.5s;
+    }
+    .header-one.show{
+        transition: 0.5s;
+        height: 400px;
+    }
+    .references{
+        margin-top: 14px;
+    }
+    .left-side-header-one.show{
+        display: flex;
     }
 }
 @media (max-width: 411px){
@@ -101,7 +174,7 @@
         transition: 0.5s;
     }
     .schedule__table{
-        height: 230%;
+        height: 218%;
     }
     .schedule__table:last-child{
         margin-bottom: 1%;
