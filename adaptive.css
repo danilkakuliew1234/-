@@ -1,7 +1,13 @@
-@media (min-width: 411px) and (max-width: 414px){ /*Phones*/
+@media (max-width: 414px){ /*Phones*/
     .container{
         width: 100%;
         height: 100%;
+    }
+    .references__burger{
+        margin-top: 14px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        margin-right: 10px;
     }
     .container__wrapper{
         max-width: 100%;
@@ -20,7 +26,7 @@
         margin-bottom: 10px;
     }
     .right-side-header-one a{
-        display: none;
+        display: flex;
     }
     .link-header-three{
         display: none;
@@ -149,16 +155,33 @@
     }
     .header-one.show{
         transition: 0.5s;
-        height: 400px;
+        height: 270px;
     }
     .references{
-        margin-top: 14px;
+        display: none;
     }
     .left-side-header-one.show{
         display: flex;
     }
+    .right-side-header-one{
+        display: none;
+        flex-direction: column;
+        left: 2%;
+        top: 20%;
+        position: absolute;
+        align-items: baseline;
+    }
+    .right-side-header-one.show{
+        display: flex;
+    }
+    .left-side-header-one{
+        margin-bottom: 15px;
+    }
+    .right-side-header-one a{
+        margin-bottom: 10px;
+    }
 }
-@media (min-width: 375px) and (max-width: 411px){
+@media (max-width: 411px){
     .header-two.show{
         height: 400px;
         transition: 0.5s;
@@ -183,7 +206,7 @@
         height: 80%;
     }
 }
-@media screen and (max-width: 375px){
+@media (max-width: 375px){
     .header-two.show{
         height: 400px;
         transition: 0.5s;
@@ -208,7 +231,7 @@
         height: 95%;
     }
 }
-@media screen and (max-width: 1025px){ /*Ipad*/
+@media (max-width: 1025px){ /*Ipad*/
     .container{
         width: 100%;
         height: 100%;
@@ -226,5 +249,28 @@
     }
     .facultet-name{
         height: 110%;
+    }
+}
+@media (max-height: 736px){
+    .right-side-header-one{
+        display: none;
+        flex-direction: column;
+        left: 1.7%;
+        top: 25%;
+        position: absolute;
+        align-items: baseline;
+    }
+}
+@media (max-height: 568px){
+    .right-side-header-one{
+        display: none;
+        flex-direction: column;
+        left: 1%;
+        top: 30%;
+        position: absolute;
+        align-items: baseline;
+    }
+    .left-side-header-one{
+        top: 9%;
     }
 }
