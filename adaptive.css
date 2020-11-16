@@ -96,8 +96,8 @@
     }
     .schedule__table table tr{
         margin-bottom: 50px;
-        background: rgb(93,84,255);
-        background: linear-gradient(90deg, rgba(93,84,255,1) 0%, rgba(210,130,145,1) 0%, rgba(180,180,180,1) 0%, rgba(255,202,135,1) 0%, rgba(154,124,124,1) 100%);
+        background: rgb(246,117,4);
+        background: linear-gradient(90deg, rgba(246,117,4,0.6) 0%, rgba(244,106,86,0.6) 100%);
         -webkit-box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
         -moz-box-shadow:    1px 1px 10px 0px rgba(50, 50, 50, 0.75);
         box-shadow:         1px 1px 10px 0px rgba(50, 50, 50, 0.75);

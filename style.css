@@ -29,8 +29,8 @@
     -moz-border-radius:7px;
     -webkit-border-radius:7px;
     border: 0px solid #000000;
-    background: rgb(93,84,255);
-    background: linear-gradient(90deg, rgba(93,84,255,1) 0%, rgba(210,130,145,1) 0%, rgba(180,180,180,1) 0%, rgba(255,202,135,1) 0%, rgba(154,124,124,1) 100%);
+    background: rgb(246,117,4);
+    background: linear-gradient(90deg, rgba(246,117,4,0.6) 0%, rgba(244,106,86,0.6) 100%);
     -webkit-box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow:    1px 1px 10px 0px rgba(50, 50, 50, 0.75);
     box-shadow:         1px 1px 10px 0px rgba(50, 50, 50, 0.75);
@@ -97,8 +97,8 @@
     background: #bababa;
     align-items: center;
     margin-bottom: 10px;
-    background: rgb(93,84,255);
-    background: linear-gradient(90deg, rgba(93,84,255,1) 0%, rgba(210,130,145,1) 0%, rgba(180,180,180,1) 0%, rgba(255,202,135,1) 0%, rgba(154,124,124,1) 100%);
+    background: rgb(246,117,4);
+    background: linear-gradient(90deg, rgba(246,117,4,0.6) 0%, rgba(244,106,86,0.6) 100%);
     border-radius:7px;
     -moz-border-radius:7px;
     -webkit-border-radius:7px;
@@ -142,8 +142,8 @@
     background: #bababa;
     align-items: center;
     margin-bottom: 15px;
-    background: rgb(93,84,255);
-    background: linear-gradient(90deg, rgba(93,84,255,1) 0%, rgba(210,130,145,1) 0%, rgba(180,180,180,1) 0%, rgba(255,202,135,1) 0%, rgba(154,124,124,1) 100%);
+    background: rgb(246,117,4);
+    background: linear-gradient(90deg, rgba(246,117,4,0.6) 0%, rgba(244,106,86,0.6) 100%);
     -webkit-box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
     box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
@@ -170,8 +170,8 @@
 .facultet-name{
     height: 32%;
     width: 100%;
-    background: rgb(93,84,255);
-    background: linear-gradient(90deg, rgba(93,84,255,1) 0%, rgba(163,163,163,1) 0%, rgba(180,180,180,1) 0%, rgba(255,218,137,1) 0%, rgba(176,146,146,1) 100%);
+    background: rgb(246,117,4);
+    background: linear-gradient(90deg, rgba(246,117,4,0.6) 0%, rgba(244,106,86,0.6) 100%);
     padding: 10px;
     border-radius:7px;
     -moz-border-radius:7px;
@@ -298,8 +298,8 @@ tr{
     background: #ffffff;
     width: 600px;
     padding: 10px;
-    background: rgb(93,84,255);
-    background: linear-gradient(90deg, rgba(93,84,255,1) 0%, rgba(210,130,145,1) 0%, rgba(180,180,180,1) 0%, rgba(255,202,135,1) 0%, rgba(154,124,124,1) 100%);
+    background: rgb(246,117,4);
+    background: linear-gradient(90deg, rgba(246,117,4,0.6) 0%, rgba(244,106,86,0.6) 100%);
     -webkit-box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
     box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
@@ -332,8 +332,8 @@ tr{
     width: 600px;
     padding: 10px;
     display: none;
-    background: rgb(93,84,255);
-    background: linear-gradient(90deg, rgba(93,84,255,1) 0%, rgba(210,130,145,1) 0%, rgba(180,180,180,1) 0%, rgba(255,202,135,1) 0%, rgba(154,124,124,1) 100%);
+    background: rgb(246,117,4);
+    background: linear-gradient(90deg, rgba(246,117,4,0.6) 0%, rgba(244,106,86,0.6) 100%);
     -webkit-box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
     box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
